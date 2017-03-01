@@ -51,7 +51,7 @@ public class Dijkstra_adjacency_list {
 
 		Dijkstra_adjacency_list d = new Dijkstra_adjacency_list(numVertices); // create graph
 		ArrayList<ArrayList<Edge>> edges = new ArrayList<ArrayList<Edge>>();
-		for (int i = 0; i < numEdges + 1; i++) {
+		for (int i = 0; i < numVertices + 1; i++) {
 			edges.add(new ArrayList<Edge>());
 		}
 		
